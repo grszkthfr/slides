@@ -25,7 +25,7 @@
 :custom_id: mgcp
 :end:
 
-#+beginn_notes
+#+begin_notes
 + Projektzeitraum: ss2017 - ss2018
   + Studierendenprojekte
 #+end_notes
@@ -92,7 +92,7 @@
 - Nächster Schritt:
   1. Projekt aufbereiten
   2. Analysen neu rechnen
-  3. Manusript vorbereiten
+  3. Manuskript vorbereiten
 
 * Laborstudie 2: /Gaze following/ in komplexen Szenen
 :properties:
@@ -451,7 +451,7 @@ Sampling Varianz.
 
 #+REVEAL: split t
 
-#+caption: Mittelwerte und CI (in %) für Fixationen für /fixation_id/ und Passanten (skaliert: -1 = 0, +1 = 20), getrennt nach /setting_id/.
+#+caption: Mittelwerte und CI (in %) für Fixationen für /fixation_id/ und Passanten (skaliert: -1 = 3, +1 = 21), getrennt nach /setting_id/.
 #+attr_html: :width 1000px
 [[file:imgs/vrrl-m4.png]]
 
@@ -525,17 +525,19 @@ Sampling Varianz.
 :custom_id: overview-gsls
 :end:
 
-|                                                           | benötigt      | erreicht                   |
-|-----------------------------------------------------------+---------------+----------------------------|
-| *Commitee Meeting*                                        | 1x/Jahr       | {{{em(white_check_mark)}}} |
-| *Research Seminars*                                       |               |                            |
-| Lab Meeting: AG Meeting                                   | wöchentlich   | {{{em(white_check_mark)}}} |
-| Literature seminar: Journal club                          | wöchentlich   | {{{em(white_check_mark)}}} |
-| Research training group seminar: SFB Meeting              | wöchentlich   | {{{em(white_check_mark)}}} |
-| *Conferences*: ECEM 2017, PuG 2018, SIPS 2019             | 1x/Jahr       | {{{em(white_check_mark)}}} |
-| *Summer Schools*: Open Sciene, Meta analysis, ESSEM, SMLP | 1x/Jahr       | {{{em(white_check_mark)}}} |
-| *GSLS Courses* (transferable skills/scientific courses)   | 1x/Semester   | 5/6                        |
-| *Publications*: [[https://doi.org/10.1080/13506285.2020.1742826][Großekathöfer et al., 2020]]                | 1 in 3 Jahren | {{{em(white_check_mark)}}} |
+|                                                           | benötigt          | erreicht                   |
+|-----------------------------------------------------------+-------------------+----------------------------|
+| *Commitee Meeting*                                        | 1x/Jahr           | {{{em(white_check_mark)}}} |
+| *Research Seminars*                                       |                   |                            |
+| Lab Meeting: AG Meeting                                   | wöchentlich       | {{{em(white_check_mark)}}} |
+| Literature seminar: Journal club                          | wöchentlich       | {{{em(white_check_mark)}}} |
+| Research training group seminar: SFB Meeting              | wöchentlich       | {{{em(white_check_mark)}}} |
+| *Conferences*: ECEM 2017, PuG 2018, SIPS 2019             | 1x/Jahr           | {{{em(white_check_mark)}}} |
+| *Summer Schools*: Open Sciene, Meta analysis, ESSEM, SMLP | 1x/Jahr           | {{{em(white_check_mark)}}} |
+| *GSLS Courses* (transferable skills/scientific courses)   | 1x/Semester       | 5/6                        |
+| *Publications*: [[https://doi.org/10.1080/13506285.2020.1742826][Großekathöfer et al., 2020]]                | 1 in 3 Jahren     | {{{em(white_check_mark)}}} |
+| Unterstützung des Komitee für den Zeitplan                | Email an die GSLS |                            |
+
 *  ‎
 :properties:
 :UNNUMBERED: notoc
