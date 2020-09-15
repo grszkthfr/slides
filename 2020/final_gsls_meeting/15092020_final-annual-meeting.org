@@ -1,0 +1,553 @@
+#+title: GSLS Annual Meeting
+#+subtitle: Final Meeting
+#+author: Jonas Großekathöfer
+#+date: 15.09.2020
+#+export_file_name: index.html
+
+#+include: setup.org
+
+* Modulation der Aufmerksamkeit durch soziale Reize
+:properties:
+:UNNUMBERED: notoc
+:custom_id: toc
+:end:
+
+#+reveal_toc: headlines 1
+
+#+begin_notes
++ Was bedeutet der Titel?
++ In 3-4 Studien untersucht in den letzten 4 Jahren
++
+#+end_notes
+
+* Laborstudie 1: Multiple Gaze cueing
+:properties:
+:custom_id: mgcp
+:end:
+
+#+beginn_notes
++ Projektzeitraum: ss2017 - ss2018
+  + Studierendenprojekte
+#+end_notes
+
+** ‎
+:properties:
+:reveal_extra_attr: data-background-video= "imgs/mgcp-trials.webm" data-background-video-muted data-background-video-loop
+:custom_id: mgcp-trials
+:end:
+
+#+begin_notes
++ 2x2-Design: Inkongr - Kongr & Individuum - Gruppe
+#+end_notes
+
+** Motivation
+:properties:
+:custom_id: mgcp-motiv
+:end:
+
++ Gruppen verstärken soziale Reize (z.B. [[https://doi.org/10.1073/pnas.1116141109][Gallup et al. 2012]]).
++ Führt das zu einem stärkeren Cueing Effekt?
+ 
+** Durchführung
+:properties:
+:custom_id: mgcp-methods
+:end:
+
++ klassische Laborstudie
+  1. Als reines Reaktionszeitexperiment
+  2. + zusätzliches Eyetracking
+
+#+begin_notes
+1. n = 69, 55 weiblich
+2. n = 77
+#+end_notes
+
+** Ergebnisse
+:properties:
+:custom_id: mgcp-results
+:end:
+
+#+caption: Reaktionszeiten (RT) in Millisekunden (ms) der Versuchspersonen auf Gruppen (3 Gesichter) vs Individuen (1 Gesicht).
+#+attr_html: :width 1200px
+[[file:imgs/mgcp-results.png]]
+
+#+begin_notes
++ Bildquelle: [[file:~/projekte/mgcp/rt/mGCP-III/bachelorarbeit/finale_BA_AlexRoepke.pdf][Bachlorarbeit von Alex Roepke]]
++ Interaktion: Signifikant
++ Sig. Unterschied *nur* für 1 Gesicht (/MD/ = -7.84 ms), kein sig. Unterschied
+  für 3 (/MD/ = -2.67 ms) Gesichter
+#+end_notes
+
+** Status
+:properties:
+:custom_id: mgcp-status
+:end:
+
+*** Analyse in Vorbereitung
+:properties:
+:UNNUMBERED: notoc
+:NOSLIDE: t
+:end:
+
+- Nächster Schritt:
+  1. Projekt aufbereiten
+  2. Analysen neu rechnen
+  3. Manusript vorbereiten
+
+* Laborstudie 2: /Gaze following/ in komplexen Szenen
+:properties:
+:custom_id: rzv
+:end:
+
+** ‎
+:properties:
+:reveal_background: imgs/rzv-stimuli.png
+:reveal_background_size: 1200px
+:custom_id: rzv-trial
+:end:
+
+#+begin_notes
++ 4 Trials /gemischt/ mit Auswertungs Ansicht
++ n = 93
+#+end_notes
+
+** Motivation
+:properties:
+:custom_id: rzv-motiv
+:end:
+
+- Priorisierung von sozialen Reizen in naturalistischen Szenen
+  - Replikation von vorigen Befunden, u.a. [[https://doi.org/10.3389/fpsyg.2017.00418][End & Gamer (2017)]]
+- Aufmerksamkeitssteuerung durch Blickrichtung in komplexen Szenen
+  - Replikation von [[https://doi.org/10.3758/PBR.17.2.257][Zwickel & Võ (2010)]]
+- Robust gegen /top down/-Modulation
+#+begin_notes
++ Prioriaierung: Früher, länger, häufiger
++ Top-Down: Gedächtnisaufgabe, mit Anforderung das gesamte Bild und nicht nur
+  soziale Reize zu verarbeiten
+  + Besonders früh, vergleichbar
+#+end_notes
+** Durchführung :noexport:
+
+#+caption: Example photographs of a single scene. Gaze direction and objects were balanced over participants. In total, 104 photographs of 26 scenes were used. Please note that since we did not obtain permission for publishing the original stimuli, this image shows an example that was not used in the experiment but taken post-hoc in order to illustrate the generation of the stimulus set.
+#+attr_html: :width 1000px
+[[file:imgs/rzv-example.png]]
+
+** Ergebnisse :noexport:
+
+*** Priorisierung von sozialen Reizen
+
+#+caption: Bar plot of the different prioritization measures for attentional orienting towards and visual exploration of the depicted person’s head and body as a function of instruction group. Note that data were aggregated across time bins for fixation duration and numbers. Error bars represent standard errors of the mean.
+#+attr_html: :width 1200px
+[[file:imgs/rzv-social.png]]
+
+*** Aufmerksamkeitssteuerung durch Blickrichtung
+
+#+caption: Bar plots of the different prioritization measures for the attentional orienting towards the cued and uncued objects as a function of instruction group. Note that data were aggregated across time bins for fixation duration and numbers. Error bars represent standard errors of the mean.
+#+attr_html: :width 1200px
+[[file:imgs/rzv-objects.png]]
+
+*** Zusammenfassung
+
+- Effekte wurden repliziert:
+  1. Generelle Priorisierung von sozialen Reizen
+  2. Aufmerksamkeitssteuerung ausgelöst durch die Blickrichtung
+
+** Status
+:properties:
+:custom_id: rzv-status
+:end:
+
+*** Publiziert
+:properties:
+:UNNUMBERED: notoc
+:NOSLIDE: t
+:end:
+
+Großekathöfer, J. D., Suchotzki, K., & Gamer, M. (2020). Gaze cueing in
+naturalistic scenes under top-down modulation — Effects on gaze behaviour and
+memory performance. Visual Cognition, 28(2), 135-147.
+
+[[https://doi.org/10.1080/13506285.2020.1742826][DOI: 10.1080/13506285.2020.1742826]]
+
+* Metaanalyse: Gaze cueing
+:properties:
+:custom_id: mag
+:end:
+
+#+begin_notes
+1) Literatursuche
+2) Exclusion
+3) Inclusion
+4) Rechnen
+#+end_notes
+
+** ‎
+:properties:
+:reveal_extra_attr: data-background-video= "imgs/mag-trials.webm"  data-background-video-muted data-background-video-loop style=color:red
+:custom_id: mag-trial
+:end:
+
+** Motivation
+:properties:
+:custom_id: mag-motiv
+:end:
+
+1. Wie groß ist der durchschnittliche Gaze cueing Effekt?
+2. Produziert Gaze cueing homogene Ergebnisse?
+   - Falls ja, wie groß ist die Varianz?
+   - Warum variieren die Effekte?
+     1. Cartoon vs Fotografien
+     2. /Inhibition of Return/ (IOR)
+     3. Emotionen
+     4. Aufgabentyp
+3. Identifizierung (und Korrektur für) eines potentiellen /publication bias/.
+
+#+begin_notes
+- PublicRechnenation bias
+  - Statistical findings are:
+    - more likely to be published
+    - more likely to be published multiple times
+    - more likely to be cited by others
+    - ...
+  - Consequences
+    - Type-I errors → false impression that an effect exists
+    - Overestimation of effect size
+    - Questionable research practices
+    - ...
+#+end_notes
+
+** Durchführung
+:properties:
+:custom_id: mag-methods
+:end:
+
+#+caption: PRISMA-style flowchart showing the study selection.
+#+attr_html: :width 800px
+[[file:imgs/mag-flow.png]]
+
+#+begin_notes
+- Of all included studies:
+  - 50 studies had missing information.
+  - 28 studies could be fully completed.
+  - 6 had to be completly removed from further analysis due to missing
+    information.
+  - 11 no raw mean differences.
+- In total:
+  - i = 53 studies
+  - j = 75 experiments
+  - k = 193 conditions
+  - n = 2231 subjects, min = 7, max = 108
+#+end_notes
+
+** Ergebnisse
+:properties:
+:custom_id: mag-results
+:end:
+
+*** Gaze cueing Effekt
+:properties:
+:custom_id: mag-results-gc
+:end:
+
+Der durchschnittliche, geschätzte Effekt ($\hat{\mu}$) liegt bei:
+
+$$\hat{\mu} = 12 \text{ms}, t(192) = 8.56, p < .001, SE = 1.34 \text{ms}$$
+
+*** Studien Heterogenität
+:properties:
+:custom_id: mag-results-hetero
+:end:
+
+Test für Heterogenität der Effekte:
+
+$$Q(192) = 222.638, p = 0.064$$
+
+Wie groß ist die Heterogenität?
+
+_Nur_ /I^2/ = 26% der Varianz auf Grund von Heterogenität der Studien, 74% durch
+Sampling Varianz.
+
+#+begin_notes
++ 12 ms, vergleich zu meiner eigenen Studie, GC-Effekt von 7 ms.
++ Heterogenität: H_0: Effectstärken sind identisch, kann (streng genommen) nicht
+  verworfen werden.
+#+end_notes
+*** Moderatoren / Metaregression
+:properties:
+:custom_id: mag-results-mods
+:end:
+
+- Aufgabentyp:
+  - Detection: $\hat{\mu}$ = 7.8 ms
+  - Identification: $\hat{\mu}$ = 13.8 ms
+  - Localisation: $\hat{\mu}$ = 14.1 ms
+- Emotionen:
+  - kein Effekt
+- IOR
+  - kein Effekt
+
+*** Publication bias :noexport:
+
+#+caption: Funnel plot. Regressions Test der Asymmetry des /Funnel plots/: t = -6.3026, df = 191, p < .0001
+#+attr_html: :width 800px
+[[file:imgs/mag-funnel_empty.png]]
+
+*** Publication bias
+:properties:
+:custom_id: mag-results-pubbias
+:end:
+
+
+#+caption: Funnel plot for gaze cueing effect. The points correspond to the gaze cueing effects from individual conditions, and the diagonal lines show the expected p-values around the summary estimate.
+#+attr_html: :width 800px
+[[file:imgs/mag-funnel.png]]
+
+#+begin_notes
+- Plot:
+  - x observed outcome
+  - y standard error
+  - vertical line indicates true effect
+  - color regions represnt p-values: n.s. up to below .10
+- WHAT TO EXPECT
+  - symmetrie
+  - majority in white region
+#+end_notes
+
+** Status
+:properties:
+:custom_id: mag-status
+:end:
+
+*** Manuskript in Vorbereitung
+:properties:
+:UNNUMBERED: notoc
+:NOSLIDE: t
+:end:
+
+- Nächste Schritte:
+  1. Angemessenes Model gerechnet?
+  2. Publication bias bei Multilevel Models?
+  3. Manuskript fertigstellen
+
+* Labor- / Feldstudie: 360° Videos
+:properties:
+:custom_id: vrrl
+:end:
+
+#+begin_notes
++ volles within design
++ HMD = Head-mounted Display
++ sphärische Videos
+#+end_notes
+
+** ‎
+:properties:
+:reveal_extra_attr: data-background-video= "imgs/vrrl-video1.webm" data-background-video-muted data-background-video-loop
+:custom_id: vrrl-trial1
+:end:
+
+#+attr_reveal: :frag roll-in
+[[file:imgs/vrrl-devices.png]]
+
+#+begin_notes
+1) Wie groß Sehwinkel von Punkt in RL?
+   - FOV der SMI-Kamera: 60° horizontal, 46° vertikal; 1280x960p; Fixation:
+     22p -> 22p = 1,03125°
+2) Wie groß muss der Punkt in VR sein?
+   - FOV der Vive: [[https://www.vrheads.com/field-view-faceoff-rift-vs-vive-vs-gear-vr-vs-psvr][about]] 100° horizontal, 110° vertikal (10 mm entfernt von
+     Linsen); 1512x1680, 15.12p = 1°
+#+end_notes
+
+** ‎
+:properties:
+:reveal_extra_attr: data-background-video= "imgs/vrrl-video2.webm" data-background-video-muted data-background-video-loop
+:custom_id: vrrl-trial2
+:end:
+
+#+attr_reveal: :frag roll-in
+[[file:imgs/vrrl-devices.png]]
+
+#+begin_notes
+1) Wie groß Sehwinkel von Punkt in RL?
+   - FOV der SMI-Kamera: 60° horizontal, 46° vertikal; 1280x960p; Fixation:
+     22p -> 22p = 1,03125°
+2) Wie groß muss der Punkt in VR sein?
+   - FOV der Vive: [[https://www.vrheads.com/field-view-faceoff-rift-vs-vive-vs-gear-vr-vs-psvr][about]] 100° horizontal, 110° vertikal (10 mm entfernt von
+     Linsen); 1512x1680, 15.12p = 1°
+#+end_notes
+
+** Motivation
+:properties:
+:custom_id: vrrl-motiv
+:end:
+
+1. Vergleich Augenbewegung in realen und virtuellen Umgebungen
+   - Isolierung von möglichen Interaktionen und Bewertungen
+     - Aktive und freie Exploration
+     - Betrachter ist /kontextuell/ eingebettet
+2. Machbarkeit & Einsatz von HMDs für /social cognition/-Fragestellungen
+   - HMDs haben einige Vorteile gegen über /klassischen/ Laborstudien
+   - 360° Videos haben einige Vorteile gegenüber computergenerierten /VR-Welten/
+
+** Durchführung
+:properties:
+:custom_id: vrrl-methods
+:end:
+
+#+caption: [[https://goo.gl/maps/YFzf2rVLpJmjNmnr6][Google Maps Ausschnitt]] der Route der Versuchspersonen für die Messorte in Würzburg.
+#+attr_html: :width 800px
+[[file:imgs/vrrl-route.png]]
+
+#+begin_notes
++ n = 44
++ 30s Videos (bzw. 2x 15s), 5 FPS ausgewertet, mit Hand kodiert
+#+end_notes
+
+** Ergebnisse
+:properties:
+:custom_id: vrrl-results
+:end:
+
+*** Priorisierung von sozialen Reizen
+:properties:
+:custom_id: vrrl-results-socprio
+:end:
+
+#+attr_reveal: :frag roll-in
+#+caption: /Dotwhisker/ Plot. Schätzer sind als /dot/, CI als /whisker/ dargestellt. /fixation/: Differenz /Objekte/ - /Person/, /setting/: Differenz /RE/ - /VE/, /S/: SIAS Score, /A/: AQK Score, /P/: Passanten, kontinuierliche Variablen skaliert (/M/ = 0, /SD/ = 1).
+#+attr_html: :width 1000px
+[[file:imgs/vrrl-dotwhisker14.png]]
+
+#+begin_notes
+- Haupteffekt Setting: Ggf. durch unpräzise Fixationen.
+#+end_notes
+
+#+REVEAL: split
+
+#+caption: Mittelwerte und CI (in %) für Fixationen für /fixation_id/ und /setting_id/.
+#+attr_html: :width 1000px
+[[file:imgs/vrrl-m1.png]]
+
+*** Einfluss von Persönlichkeitseigenschaften
+:properties:
+:custom_id: vrrl-results-personality
+:end:
+
+#+attr_reveal: :frag roll-in
+#+caption: /Dotwhisker/ Plot. Schätzer sind als /dot/, CI als /whisker/ dargestellt. /fixation/: Differenz /Objekte/ - /Person/, /setting/: Differenz /RE/ - /VE/, /S/: SIAS Score, /A/: AQK Score, /P/: Passanten, kontinuierliche Variablen skaliert (/M/ = 0, /SD/ = 1).
+#+attr_html: :width 1000px
+[[file:imgs/vrrl-dotwhisker34.png]]
+
+*** Einfluss von Passanten
+:properties:
+:custom_id: vrrl-results-bypas
+:end:
+
+#+attr_reveal: :frag roll-in
+#+caption: /Dotwhisker/ Plot. Schätzer sind als /dot/, CI als /whisker/ dargestellt. /fixation/: Differenz /Objekte/ - /Person/, /setting/: Differenz /RE/ - /VE/, /S/: SIAS Score, /A/: AQK Score, /P/: Passanten, kontinuierliche Variablen skaliert (/M/ = 0, /SD/ = 1).
+#+attr_html: :width 1000px
+[[file:imgs/vrrl-dotwhisker44.png]]
+
+#+REVEAL: split t
+
+#+caption: Mittelwerte und CI (in %) für Fixationen für /fixation_id/ und Passanten (skaliert: -1 = 0, +1 = 20), getrennt nach /setting_id/.
+#+attr_html: :width 1000px
+[[file:imgs/vrrl-m4.png]]
+
+#+begin_notes
+- Fix(person)/(Fix(Person)+Fix(Objekt)) um für Haupteffekt zu "kontrollieren"
+#+end_notes
+
+*** Konsistenz des Blickverhaltens
+:properties:
+:custom_id: vrrl-results-consistency
+:end:
+
+#+caption: /Heatplot/, der die Korrelationen der Fixationen über verschiedene Umgebungen und Orte anzeigt. *A* zeigt die Korrelationen für Fixationen auf /Personen/, *B* für die Fixationen auf /Objekte/.
+#+attr_html: :width 1000px
+[[file:imgs/vrrl-heat.png]]
+
+#+begin_notes
++ Klasse der Objekte zu heterogen?!
+#+end_notes
+
+** Status
+:properties:
+:custom_id: vrrl-status
+:end:
+
+*** Manuskript in Vorbereitung
+:properties:
+:UNNUMBERED: notoc
+:NOSLIDE: t
+:end:
+
+- Nächster Schritt:
+  1. Fertigstellung des Manuskripts
+
+* Überblick
+:properties:
+:custom_id: overview
+:end:
+
+** Eitracking :noexport:
+
+- {{{em(egg)}}} Labotstudie 1: in Vorbereitung
+- {{{em(hatched_chick)}}} Laborstudie 2: publiziert
+- {{{em(hatching_chick)}}} VR-/Feldstudie: Manuskript in Vorbereitung
+- {{{em(hatching_chick)}}} Metaanalyse: Manuskript in Vorbereitung
+
+** Projektübersicht
+:properties:
+:custom_id: overview-projects
+:end:
+
+| Studie         | aktueller Stand                 |                          |
+|----------------+---------------------------------+--------------------------|
+| Labotstudie 1  | Datenauswertung in Vorbereitung | {{{em(egg)}}}            |
+| Laborstudie 2  | publiziert                      | {{{em(hatched_chick)}}}  |
+| Metaanalyse    | Manuskript in Vorbereitung      | {{{em(hatching_chick)}}} |
+| VR-/Feldstudie | Manuskript in Vorbereitung      | {{{em(hatching_chick)}}} |
+
+#+begin_notes
++ Passt das so?
++ In meiner Dissertation
+  + 4 Kapitel: o.g. Studien
+  + Thema: /Modulation der Aufmerksamkeit durch soziale Reize/
+  + Roter Faden:
+    + 2 Laborstudien, inkl. Metaanalyse zum Thema /gaze cueing/
+    + VR-  / Feldstudie zum Thema
+#+end_notes
+
+** GSLS
+:properties:
+:custom_id: overview-gsls
+:end:
+
+|                                                           | benötigt      | erreicht                   |
+|-----------------------------------------------------------+---------------+----------------------------|
+| *Commitee Meeting*                                        | 1x/Jahr       | {{{em(white_check_mark)}}} |
+| *Research Seminars*                                       |               |                            |
+| Lab Meeting: AG Meeting                                   | wöchentlich   | {{{em(white_check_mark)}}} |
+| Literature seminar: Journal club                          | wöchentlich   | {{{em(white_check_mark)}}} |
+| Research training group seminar: SFB Meeting              | wöchentlich   | {{{em(white_check_mark)}}} |
+| *Conferences*: ECEM 2017, PuG 2018, SIPS 2019             | 1x/Jahr       | {{{em(white_check_mark)}}} |
+| *Summer Schools*: Open Sciene, Meta analysis, ESSEM, SMLP | 1x/Jahr       | {{{em(white_check_mark)}}} |
+| *GSLS Courses* (transferable skills/scientific courses)   | 1x/Semester   | 5/6                        |
+| *Publications*: [[https://doi.org/10.1080/13506285.2020.1742826][Großekathöfer et al., 2020]]                | 1 in 3 Jahren | {{{em(white_check_mark)}}} |
+*  ‎
+:properties:
+:UNNUMBERED: notoc
+:custom_id: goodbye
+:end:
+
+Vielen Dank für Ihre Aufmerksamkeit.
+
+* COMMENT Local Variables :ARCHIVE:
+# Local Variables:
+# ispell-local-dictionary: "german"
+# End:
+
+#  LocalWords:  Aufmerksamkeitssteuerung top down Augenbewegung HMDs Feldstudie
+#  LocalWords:  Metaanalyse
